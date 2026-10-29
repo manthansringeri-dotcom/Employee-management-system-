@@ -19,7 +19,7 @@ printf("\nEnter Employee ID: ");
 scanf("%d", &emp[count].id);
 
     printf("Enter Employee Name: ");
-    scanf("%49s", emp[count].name);
+    scanf("%50s", emp[count].name);
 
     printf("Enter Employee Salary: ");
     scanf("%f", &emp[count].salary);
@@ -30,7 +30,7 @@ scanf("%d", &emp[count].id);
 }
 else
 {
-    printf("\nEmployee Limit Reached!\n");
+    printf("\nEmployee Limit Reached\n");
 }
 
 }
